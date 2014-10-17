@@ -1,0 +1,20 @@
+键盘映射:
+
+对键盘编程关键在于选择一个可以支持映射的键盘。
+参考网站:http://www.slant.co/topics/1150/~what-are-the-best-keyboards-for-programming
+
+参考:http://www.slant.co/topics/1150/viewpoints/4/~what-are-the-best-keyboards-for-programming~kinesis-advantage-270-usd
+
+参考:http://www.slant.co/topics/1150/viewpoints/20/~what-are-the-best-keyboards-for-programming~ergodox
+
+
+操作系统级映射：
+在windows下使用autohotkey,可以定义大量的工作
+
+
+软件:
+bash:使用bind将readline键和功能映射
+
+readline: 在配置文件.inputrc中更改
+
+screen:在配置文件.screenrc中更改
