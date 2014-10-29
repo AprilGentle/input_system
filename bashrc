@@ -10,7 +10,7 @@ set -o vi
 
 # User specific aliases and functions
 # key bind
-if [[ $TERM == xterm* || $TERM == rxvt* ]];then
+if [[ $TERM == xterm* || $TERM == rxvt* || $TERM == screen ]];then
     if [[ $SHELLOPTS == *emacs* ]]; then
         bind '"\eb":vi-bWord'
         bind '"\ef":vi-fWord'
