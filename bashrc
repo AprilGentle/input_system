@@ -6,7 +6,7 @@ if [ -f /etc/bashrc ]; then
 fi
 
 #vi mode
-set -o vi
+#set -o vi
 
 # User specific aliases and functions
 # key bind
