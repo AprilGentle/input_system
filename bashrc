@@ -5,7 +5,6 @@ if [ -f /etc/bashrc ]; then
         . /etc/bashrc
 fi
 
-set -o vi
 stty -ixon
 
 # User specific aliases and functions
@@ -31,4 +30,6 @@ fi
 if [[ $BASH_VERSION == '4.1.2(1)-release' ]]; then
     export SHELL=/usr/local/bin/bash
     bash
+elif [[ $BASH_VERSION == '4.3.0(1)-release' ]]; then
+    set -o vi
 fi
